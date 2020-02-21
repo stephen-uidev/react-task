@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,500');
+
+html body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.body-wrapper{
+  padding: 10px 20px;
+}
+
+.title{
+  border-bottom: 1px solid #000;
+  font-size: 16px;
+  font-weight: 500;
+  padding-bottom: 5px;
+}
+.filter-wrapper, .table-wrapper{
+  float: left;
+}
+
+.filter-wrapper{
+  width: 200px;
+}
+
+.table-wrapper{
+  width: calc(100% - 200px);
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+.filters{
+  background-color: #ccc;
+  padding: 5px;
+  margin-top: 10px;
+
+}
+
+.subtitle{
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  padding-bottom: 5px;
+}
+
+.checkbox label{
+  text-transform: capitalize;
+  font-size: 14px;
+}
+
+th{
+  font-weight: 500;
+  padding: 0 10px;
+  text-align: left;
+}
+td{
+  padding: 0 13px;
+  font-size: 13px;
+  text-align: text;
+}
+
+.account-details{
+  font-size: 13px;
+}
+.account-details label{
+  font-weight: 500;
+  margin-right: 10px;
+}
